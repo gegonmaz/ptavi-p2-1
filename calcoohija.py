@@ -38,10 +38,10 @@ if __name__ == "__main__":
             result = calculadorahija.multiplicar(operando1, operando2)
     elif sys.argv[2] == "divide":
         if operando2 == 0:
-            result = "No se puede dividir por cero"
+             pass
         else: 
             result = calculadorahija.dividir(operando1, operando2)        
          
     else:
         sys.exit('Operación sólo puede ser suma, resta, multiplica o divide')
-print(result)
+    print(result)
