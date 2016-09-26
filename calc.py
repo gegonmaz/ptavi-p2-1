@@ -14,11 +14,6 @@ def minus(op1, op2):
     return op1 - op2
 
 
-def multiplicar(op1, op2):
-    return op1 * op2
-
-def dividir(op1, op2):
-    return op1 / op2
 
 if __name__ == "__main__":
     
@@ -38,4 +33,4 @@ if __name__ == "__main__":
     else:
         sys.exit('Operación sólo puede ser sumar, resta')
 
-    print(result)
+print(result)
